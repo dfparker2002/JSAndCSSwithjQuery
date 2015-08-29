@@ -1,0 +1,25 @@
+body {
+    font: 16px sans-serif;
+}
+fieldset {
+    border: 1px solid rgb(200, 200, 200);
+    background: yellow;
+    
+}
+fieldset div {
+    padding: 10px;
+    margin: 5px;
+}
+fieldset label {
+    float: left;
+    width: 200px;
+    text-align: right;
+    padding: 2px 5px 0 0;
+}
+div#hLocationCountryIDWrapper img {
+    position: relative;
+    top: -4px;
+}
+div.tmpButton {
+    text-align: right;
+}

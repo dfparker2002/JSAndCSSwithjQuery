@@ -1,0 +1,20 @@
+div.ui-resizable-handle {
+    border: none !important;
+    background: #fff !important;
+    filter: alpha(opacity=1);
+}
+div.ui-dialog-content {
+    border: 1px solid rgb(128, 128, 128);
+    border-top: none;
+    padding: 10px 14px 10px 10px;
+}
+a.ui-dialog-titlebar-close {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+      (src="../../../Images/Dialog/closeOff.png", sizingMethod="crop");
+}
+a.ui-dialog-titlebar-close:hover {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+      (src="../../../Images/Dialog/closeOn.png", sizingMethod="crop");
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en'>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta http-equiv='content-language' content='en-us' />
+    <title></title>
+        <script type='text/javascript' 
+            src='../../../Source Code/jQuery/jQuery.js'></script>
+    <script type='text/javascript' src='Example 4-1.js'></script>
+    <link type='text/css' href='Example 4-1.css' rel='stylesheet' />
+  </head>
+  <body>
+     <p>
+       Setting an attribute value with jQuery's attr() method is 
+       really easy, all you have to do is supply the name of the 
+       attribute and a value.
+     </p>
+     <span class='tmpSetAttr'>
+       The id attribute of this element is set to <i>tmpSetID</i>.
+     </span>
+     <p>
+       You can also set multiple attributes by supplying an object 
+       literal to the attr() method.     
+     </p>
+     <span class='tmpSetMultipleAttr'>
+       The title of this element is set to <i>Hello, World!</i> and 
+       the id attribute of this element is set to <i>tmpHelloWorld</i>.
+     </span>
+     <p>
+       Getting an attribute value is just as intuitive, all you need
+       to do is call the attr() method with the name of the attribute
+       you want to get the value for.
+     </p>
+     <span class='tmpGetAttr' title='Foo'>
+       This element's title attribute has a value of <span></span>.
+     </span>
+     <p>
+       An attribute can be removed from an element using the 
+       removeAttr() method.
+     </p>
+     <span class='tmpRemoveAttr'>
+       This element's class attribute is removed.
+     </span>
+     <p>
+       Element attributes may also be set via a callback function.
+     </p>
+     <ul>
+       <li>I</li>
+       <li>Me</li>
+       <li>Mine</li>
+     </ul>
+  </body>
+</html>

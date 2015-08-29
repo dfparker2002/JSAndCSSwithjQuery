@@ -1,0 +1,7 @@
+input.tmpFocused {
+    background: #89130a;
+    color: white;
+}
+input.tmpFocusedOnLoad {
+    background: #acd1ed;
+}

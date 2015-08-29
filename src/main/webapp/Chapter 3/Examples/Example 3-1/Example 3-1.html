@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en'>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta http-equiv='content-language' content='en-us' />
+    <title></title>
+        <script type='text/javascript' 
+            src='../../../Source Code/jQuery/jQuery.js'></script>
+    <script type='text/javascript' src='Example 3-1.js'></script>
+    <link rel='stylesheet' href='Example 3-1.css' type='text/css' />
+  </head>
+  <body>
+    <p>
+        jQuery's event API is modeled after the standard event API put
+        forth by the W3C.  It's bind() method simplifies this API, 
+        by requiring less code, and dropping a mostly unneeded argument.
+    </p>
+    <div class='tmpBind'>
+       <div></div>
+       <div></div>
+       <div></div>
+    </div>
+    <p>
+        jQuery doesn't stop there, however, you can also use individual
+        event methods to bind events.
+    </p>
+    <div class='tmpIndividual'>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <p>
+        And if that weren't enough, jQuery also provides two methods that
+        accommodate applying both a mouseover and mouseout event in the 
+        same method, and a method that makes toggling easier and 
+        more intuitive.
+    </p>
+    <div class='tmpPattern'>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <p>
+        You can also programmatically trigger events, like automatically
+        focusing the following &lt;textarea&gt; element on page load.
+    </p>
+    <div class='tmpTrigger'>
+        <textarea name='tmpExample' cols='50' rows='5'>Example</textarea>
+    </div>
+    <p>
+        Even triggering an event is made easier, you can use individual
+        event methods with no arguments to do that too.
+    </p>
+  </body>
+</html>

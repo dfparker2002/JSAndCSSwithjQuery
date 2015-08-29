@@ -1,0 +1,45 @@
+body {
+  font: 16px sans-serif;
+}
+span#tmpSetID {
+  background: yellow;
+  border: 1px dashed rgb(128, 128, 128);
+  padding: 3px;
+}
+span#tmpHelloWorld {
+  background: green;
+  padding: 3px;
+  border: 1px dashed yellowgreen;
+  color: yellowgreen;
+}
+span.tmpGetAttr {
+  background: blue;
+  padding: 3px;
+  border: 1px dashed lightblue;
+  color: lightblue;
+}
+span.tmpRemoveAttr {
+  background: red;
+  padding: 3px;
+  border: 1px dashed pink;
+  color: pink;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px;
+}
+li#tmpI,
+li#tmpMe,
+li#tmpMine {
+  padding: 3px;
+}
+li#tmpI {
+  background: orange;
+}
+li#tmpMe {
+  background: purple;    
+}
+li#tmpMine {
+  background: magenta;
+}

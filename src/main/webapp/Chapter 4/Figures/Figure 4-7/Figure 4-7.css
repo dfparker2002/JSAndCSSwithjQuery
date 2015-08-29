@@ -1,0 +1,13 @@
+body {
+    font: 16px sans-serif;
+}
+p {
+    padding: 5px;
+    margin: 5px;    
+}
+p.tmpQuote {
+    background: lightblue;
+}
+p#tmpQuote-2 {
+    background: lightgreen;
+}

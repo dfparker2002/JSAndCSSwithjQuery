@@ -1,0 +1,14 @@
+body {
+    font: 16px sans-serif;
+}
+h4, p {
+    margin: 5px;  
+}
+div {
+    background: #acf7d0;
+    border: 3px solid #96dab6;
+    margin: 3px;
+}
+div#tmp {
+    display: none;
+}

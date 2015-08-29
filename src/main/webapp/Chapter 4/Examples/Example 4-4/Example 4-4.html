@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en'>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta http-equiv='content-language' content='en-us' />
+    <title></title>
+        <script type='text/javascript' 
+            src='../../../Source Code/jQuery/jQuery.js'></script>
+    <script type='text/javascript' src='Example 4-4.js'></script>
+    <link type='text/css' href='Example 4-4.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class='tmpWrapper'>
+      <input type='submit' id='tmpReplaceWith' value='Replace With' />
+    </div>
+    <div class='tmpWrapper'>
+      <p id='tmpReplaceAllContent'>
+        jQuery's replaceAll() method takes existing content and 
+        replaces it.
+      </p>
+       <input type='submit' id='tmpReplaceAll' value='Replace All' />
+    </div>
+    <div class='tmpWrapper'>
+      <p>
+        jQuery's empty() method removes all children elements (including
+        text) from selected items. jQuery's remove() method completely 
+        removes the selected items.
+      </p>
+      <ul>
+        <li>replaceAll()</li>
+        <li>replaceWith()</li>
+        <li>empty()</li>
+        <li>remove()</li>
+        <li>clone()</li>
+      </ul>
+      <input type='submit' id='tmpEmpty' value='Empty' />
+      <input type='submit' id='tmpRemove' value='Remove' />
+    </div>
+    <div class='tmpWrapper'>
+      <p>
+        jQuery's clone() method can be used to duplicate elements.  Setting
+        its first argument to true also duplicates those elements' event
+        handlers.
+      </p>
+      <form action='javascript:void(0);' method='post'>
+        <div id='tmp' class='tmpRow'>
+          <input type='text' name='tmpItem' value='' size='25' />
+        </div>
+        <div>
+          <input type='submit' id='tmpAddInput' value='Add Input' />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

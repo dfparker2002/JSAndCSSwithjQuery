@@ -1,0 +1,12 @@
+body {
+    font: 16px sans-serif;
+}
+h4 {
+    margin: 5px;    
+}
+p {
+    margin: 5px;
+}
+p.tmpAttribution {
+    text-align: right;
+}

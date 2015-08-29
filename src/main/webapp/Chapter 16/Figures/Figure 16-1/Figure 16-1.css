@@ -1,0 +1,17 @@
+body {
+    font: 12px "Lucida Grande", Arial, sans-serif;
+    background: #fff;
+    color: rgb(50, 50, 50);
+}
+div#tmpTab-1 {
+    background: lightblue;
+    padding: 5px;
+}
+div#tmpTab-2 {
+    background: lightgreen;
+    padding: 5px;
+}
+div#tmpTab-3 {
+    background: yellow;
+    padding: 5px;
+}

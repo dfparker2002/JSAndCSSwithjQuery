@@ -1,0 +1,24 @@
+body {
+    font: 16px sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin: 3px;
+    padding: 3px;
+}
+li#tmpJupiter {
+    background: #d7b05b;
+}
+li#tmpSaturn {
+    background: #d3988a;
+}
+li#tmpUranus {
+    background: #8ad3a6;
+}
+li#tmpNeptune {
+    background: #8aa9d3;
+}

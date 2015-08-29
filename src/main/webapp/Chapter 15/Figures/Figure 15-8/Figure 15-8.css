@@ -1,0 +1,133 @@
+body {
+    font: 12px "Lucida Grande", Arial, sans-serif;
+    background: #fff;
+    color: rgb(50, 50, 50);
+}
+div.ui-dialog {
+    overflow: visible !important;    
+}
+div.ui-dialog-titlebar {
+    height: 23px !important;
+    background: url('../../../Images/Dialog/titlebarRight.png') 
+      no-repeat top right;
+    position: relative;
+    z-index: 10 !important;
+}
+span.ui-dialog-title {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 9px;
+    padding: 4px 0 0 0;
+    height: 19px !important;
+    background: url('../../../Images/Dialog/titlebar.png') 
+      repeat-x top;
+    position: relative;
+    z-index: 10;
+}
+div.ui-dialog-container {
+    background: url('../../../Images/Dialog/titlebarLeft.png') 
+      no-repeat top left;
+}
+a.ui-dialog-titlebar-close {
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    top: 5px;
+    left: 10px;
+    background: url('../../../Images/Dialog/closeOff.png') 
+      no-repeat top left;
+    z-index: 10;
+}
+a.ui-dialog-titlebar-close:hover {
+    background: url('../../../Images/Dialog/closeOn.png') 
+      no-repeat top left;
+}
+a.ui-dialog-titlebar-close span {
+    display: none;
+}
+a.ui-dialog-titlebar-close:focus {
+    border: none;
+    outline: none;    
+}
+div.ui-dialog-content  {
+    padding: 10px;
+    background: #fff !important;
+    width: auto !important;
+    height: auto !important;
+    z-index: 10 !important;
+    position: absolute !important;
+    top: 23px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+div.ui-resizable-handle {
+    border: none !important;
+    z-index: -1 !important;
+}
+div.ui-resizable-nw {
+    background: url('../../../Images/Dialog/Shadow/shadow_01.png') 
+      no-repeat top right !important;
+    width: 117px !important;
+    height: 112px !important;
+    top: -50px !important;
+    left: -60px !important;
+}
+div.ui-resizable-n {
+    background: url('../../../Images/Dialog/Shadow/shadow_02.png') 
+      repeat-x top !important;
+    height: 112px !important;
+    top: -52px !important;
+}
+div.ui-resizable-ne {
+    background: url('../../../Images/Dialog/Shadow/shadow_03.png') 
+      no-repeat top left !important;
+    width: 115px !important;
+    height: 112px !important;
+    top: -50px !important;
+    right: -60px !important;
+}
+div.ui-resizable-w {
+    background: url('../../../Images/Dialog/Shadow/shadow_04.png') 
+      repeat-y top left !important;
+    width: 115px !important;
+    left: -60px !important;
+    top: 62px !important;
+    bottom: 51px !important;
+    height: auto !important;
+}
+div.ui-resizable-e {
+    background: url('../../../Images/Dialog/Shadow/shadow_06.png') 
+      repeat-y top left !important;
+    width: 117px !important;
+    right: -60px !important;
+    top: 62px !important;
+    bottom: 51px !important;
+    height: auto !important;
+}
+div.ui-resizable-sw {
+    background: url('../../../Images/Dialog/Shadow/shadow_07.png') 
+      no-repeat top right !important;
+    width: 115px !important;
+    height: 111px !important;
+    bottom: -60px !important;
+    left: -60px !important;
+}
+div.ui-resizable-s {
+    background: url('../../../Images/Dialog/Shadow/shadow_08.png') 
+      repeat-x bottom !important;
+    height: 111px !important;
+    bottom: -60px !important;
+    width: auto !important;
+    left: 55px !important;
+    right: 57px !important;
+}
+div.ui-resizable-se {
+    background: url('../../../Images/Dialog/Shadow/shadow_14.png') 
+      no-repeat top right !important;
+    width: 117px !important;
+    height: 111px !important;
+    bottom: -60px !important;
+    right: -60px !important;
+}

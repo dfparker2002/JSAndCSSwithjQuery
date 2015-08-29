@@ -1,0 +1,55 @@
+body {
+  font: 16px sans-serif;
+}
+p {
+  margin: 5px;
+}
+p.tmpSetMultiple span {
+  display: block;
+  margin: 5px;    
+}
+div.tmpBeside,
+div.tmpBesideSelection {
+  clear: both;    
+  height: 62px;
+}
+span.tmpReference,
+span.tmpReferenceBefore,
+span.tmpReferenceAfter {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+span.tmpTemplate {
+  display: none;    
+}
+div span.tmpReference,
+div span.tmpReferenceBefore,
+div span.tmpReferenceAfter {
+  display: block;    
+}
+span.tmpReference {
+  background: blue;
+  border: 1px solid lightblue;
+}
+span.tmpReferenceBefore {
+  background: green;
+  border: 1px solid lightgreen;
+}
+span.tmpReferenceAfter {
+  background: red;
+  border: 1px solid pink;
+}
+div.tmpWrapper {
+  background: #fdee8a;
+  border: 3px solid #f3e270;
+  margin: 5px;
+}
+div.tmpWrapAll {
+  background: #bdfae2;
+  border: 3px solid #a1e8cc;
+}
+span.tmpWrapInner {
+  background: #b8def8;
+}

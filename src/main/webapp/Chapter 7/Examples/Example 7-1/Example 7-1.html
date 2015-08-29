@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en'>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta http-equiv='content-language' content='en-us' />
+    <title></title>
+    <script type='text/javascript' 
+            src='../../../Source Code/jQuery/jQuery.js'></script>
+    <script type='text/javascript' src='Example 7-1.js'></script>
+    <link type='text/css' href='Example 7-1.css' rel='stylesheet' />
+  </head>
+  <body>
+     <form action='javascript:void(0);' method='post'>
+       <fieldset>
+         <legend>jQuery AJAX Recap</legend>
+         <p>
+           jQuery's $.get() method can be used to retrieve XML-formatted
+           data, which jQuery makes incredibly easy to work with by 
+           allowing you to use jQuery's rich selector API on XML documents.
+         </p>
+         <div>
+           <label for='tmpFirstName'>First Name:</label>
+           <input type='text' name='tmpFirstName' 
+                  id='tmpFirstName' size='25' />
+         </div>
+         <div>
+           <label for='tmpLastName'>Last Name:</label>
+           <input type='text' name='tmpLastName' 
+                  id='tmpLastName' size='25' />
+         </div>
+         <div class='tmpButton'>
+           <input type='submit' name='tmpFetchName' 
+                  id='tmpFetchName' value='Fetch Name' />
+         </div>
+         <p>
+           jQuery also has first-class support for JSON, a data trasport
+           format that is fast-rising in popularity and use.  
+           JSON-formatted requests are even easier and less verbose to
+           work with.
+         </p>
+         <div>
+           <label for='tmpTitle'>Title:</label>
+           <input type='text' name='tmpTitle' 
+                  id='tmpTitle' size='25' />
+         </div>
+         <div>
+           <label for='tmpCompany'>Company:</label>
+           <input type='text' name='tmpCompany' 
+                  id='tmpCompany' size='25' />
+         </div>
+         <div class='tmpButton'>
+           <input type='submit' name='tmpFetchOther' 
+                  id='tmpFetchOther' value='Fetch Title &amp; Company' />
+         </div>
+         <p>
+           Finally, jQuery makes it very easy to post data back to the
+           server, via its serialize() method.
+         </p>
+         <div class='tmpButton'>
+           <input type='submit' name='tmpPostData' 
+                  id='tmpPostData' value='Post Data' />
+         </div>
+         <div id='tmpPostedData'>
+         
+         </div>
+       </fieldset>
+     </form>
+  </body>
+</html>

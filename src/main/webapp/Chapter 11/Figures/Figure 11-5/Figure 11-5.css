@@ -1,0 +1,31 @@
+body {
+    font: 12px "Lucida Grande", Arial, sans-serif;
+    background: #fff;
+    color: rgb(50, 50, 50);
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    margin: 5px;    
+}
+ul {
+    list-style: none;
+    width: 250px;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid rgb(110, 59, 28); 
+    border-bottom: none;
+}
+li {
+    background: rgb(218, 191, 162);
+    padding: 3px;
+    width: 244px;
+    border-bottom: 1px solid rgb(110, 59, 28);
+}
+li.tmpPlaceholder {
+    background: rgb(110, 59, 28);
+    height: 22px;
+}
+li.tmpHelper {
+    border: 1px solid rgb(110, 59, 28);
+}

@@ -1,0 +1,8 @@
+body {
+    font: 16px sans-serif;
+}
+p {
+    padding: 5px;
+    margin: 5px;
+    background: lightgreen;
+}

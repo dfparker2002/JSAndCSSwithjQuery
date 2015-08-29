@@ -1,0 +1,16 @@
+body {
+  font: 16px sans-serif;
+}
+p {
+  margin: 5px;
+}
+p#tmpReplaceAllContent {
+  display: none;
+}
+div.tmpWrapper,
+form div {
+  padding: 5px;
+}
+input.tmpFocused {
+  background: lightblue;
+}

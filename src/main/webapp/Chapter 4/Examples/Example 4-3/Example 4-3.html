@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en'>
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta http-equiv='content-language' content='en-us' />
+    <title></title>
+        <script type='text/javascript' 
+            src='../../../Source Code/jQuery/jQuery.js'></script>
+    <script type='text/javascript' src='Example 4-3.js'></script>
+    <link type='text/css' href='Example 4-3.css' rel='stylesheet' />
+  </head>
+  <body>
+    <p>
+      jQuery's <b>html()</b> method can be used to get HTML content.
+    </p>
+    <input type='submit' id='tmpGetHTML' value='Get HTML' />
+    <p>
+      jQuery's <b>text()</b> method can be used to get text content.
+    </p>
+    <input type='submit' id='tmpGetText' value='Get Text' />
+    <p>
+      The <b>html()</b> method can also be used to set HTML content, 
+      which is done by passing HTML to its first argument.
+    </p>
+    <input type='submit' id='tmpSetHTML' value='Set HTML' />
+    <p>
+      The <b>text()</b> method can also be used to set text content,
+      which is done by passing text to its first argument.
+    </p>
+    <input type='submit' id='tmpSetText' value='Set Text' />
+    <p class='tmpSetMultiple'>
+      Text or HTML can be set on just one or many elements.
+      <span></span>
+      <span></span>
+      <span></span>
+    </p>
+    <input type='submit' id='tmpSetMultiple' value='Set Multiple' />
+    <p>
+      The <b>append()</b> method is used to append content.
+    </p>
+    <input type='submit' id='tmpAppend' value='Append HTML' />
+    <p>
+      The <b>prepend()</b> method is used to prepend content.
+    </p>
+    <input type='submit' id='tmpPrepend' value='Prepend HTML' />
+    <p>
+      The <b>before()</b> and <b>after()</b> methods are used 
+      to insert content beside other content.
+    </p>
+    <div class='tmpBeside'>
+      <span class='tmpReference'></span>
+    </div>
+    <input type='submit' id='tmpBefore' value='Insert Before' />
+    <input type='submit' id='tmpAfter' value='Insert After' />
+    <span class='tmpReferenceBefore tmpTemplate'></span>
+    <span class='tmpReferenceAfter tmpTemplate'></span>
+    <p>
+      The <b>insertBefore()</b> and <b>insertAfter()</b> methods are 
+      used to insert existing content beside other content via a 
+      selector.    
+    </p>
+    <div class='tmpBesideSelection'>
+      <span class='tmpReference'></span>
+    </div>
+    <input type='submit' id='tmpBeforeSelection' value='Insert Before' />
+    <input type='submit' id='tmpAfterSelection' value='Insert After' />
+    <p>
+      The <b>wrap()</b> method is used to wrap each item in a selection 
+      with individual wrapper elements.
+    </p>
+    <input type='submit' id='tmpWrap' value='Wrap' />
+    <p>
+      The <b>wrapAll()</b> method wraps an entire selection of elements
+      in a single wrapper.
+    </p>
+    <input type='submit' id='tmpWrapAll' value='Wrap All' />
+    <p>
+      The <b>wrapInner()</b> method wraps the contents of every element 
+      in a selection with individual wrapper elements.
+    </p>
+    <input type='submit' id='tmpWrapInner' value='Wrap Inner' />
+  </body>
+</html>

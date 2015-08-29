@@ -1,0 +1,9 @@
+ul#hFinderCategoryFiles,
+ul#hFinderOtherCategoryFiles {
+    height: expression(document.body.offsetHeight - 23);
+}
+div.hFinderCategoryFileIcon {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+      (src='../../../Images/Finder/Safari Document.png', sizingMethod='crop');
+}

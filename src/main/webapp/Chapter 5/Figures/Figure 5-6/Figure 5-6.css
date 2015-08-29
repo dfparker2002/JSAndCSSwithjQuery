@@ -1,0 +1,15 @@
+body {
+    font: 16px sans-serif;
+}
+h4 {
+    margin: 0;    
+}
+ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+li.tmpSelected {
+    background: #a1e6b2;
+    border: 4px solid #93daa4;
+}

@@ -1,0 +1,13 @@
+body {
+    font: 16px sans-serif;
+}
+div {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    background: #93cdf9;
+    margin: 5px;
+}
+div#tmpExample {
+    background: #6faddd;
+}
